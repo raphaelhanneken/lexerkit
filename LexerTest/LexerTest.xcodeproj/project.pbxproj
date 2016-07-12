@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA97B671BE3C8A7003CB921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA97B661BE3C8A7003CB921 /* AppDelegate.swift */; };
+		8EA97B691BE3C8A7003CB921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA97B681BE3C8A7003CB921 /* Assets.xcassets */; };
+		8EA97B6C1BE3C8A7003CB921 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA97B6A1BE3C8A7003CB921 /* MainMenu.xib */; };
+		8EC535701BE56C9C00B145B5 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5356E1BE56C9C00B145B5 /* MainWindowController.swift */; };
+		8EC535711BE56C9C00B145B5 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5356F1BE56C9C00B145B5 /* MainWindowController.xib */; };
+		8EF480611CFAF14300AC4738 /* LineNumberTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF480601CFAF14300AC4738 /* LineNumberTextView.framework */; };
+		8EF480621CFAF14300AC4738 /* LineNumberTextView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF480601CFAF14300AC4738 /* LineNumberTextView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8EF480641CFAF1E700AC4738 /* LexerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF480631CFAF1E700AC4738 /* LexerKit.framework */; };
+		8EF480651CFAF1E700AC4738 /* LexerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF480631CFAF1E700AC4738 /* LexerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8EA97B851BE3C93A003CB921 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8EF480651CFAF1E700AC4738 /* LexerKit.framework in Embed Frameworks */,
+				8EF480621CFAF14300AC4738 /* LineNumberTextView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8EA97B631BE3C8A7003CB921 /* LexerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LexerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA97B661BE3C8A7003CB921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EA97B681BE3C8A7003CB921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EA97B6B1BE3C8A7003CB921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8EA97B6D1BE3C8A7003CB921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC5356E1BE56C9C00B145B5 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		8EC5356F1BE56C9C00B145B5 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		8EF480601CFAF14300AC4738 /* LineNumberTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineNumberTextView.framework; sourceTree = "<group>"; };
+		8EF480631CFAF1E700AC4738 /* LexerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = LexerKit.framework; path = "/Users/dot/Library/Developer/Xcode/DerivedData/Lexer-encsvfbbvjezfpbqowvkctwgvyzd/Build/Products/Debug/LexerKit.framework"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA97B601BE3C8A7003CB921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF480641CFAF1E700AC4738 /* LexerKit.framework in Frameworks */,
+				8EF480611CFAF14300AC4738 /* LineNumberTextView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA97B5A1BE3C8A7003CB921 = {
+			isa = PBXGroup;
+			children = (
+				8EA97B651BE3C8A7003CB921 /* LexerTest */,
+				8EA97B641BE3C8A7003CB921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA97B641BE3C8A7003CB921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA97B631BE3C8A7003CB921 /* LexerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA97B651BE3C8A7003CB921 /* LexerTest */ = {
+			isa = PBXGroup;
+			children = (
+				8EA97B661BE3C8A7003CB921 /* AppDelegate.swift */,
+				8EC5356E1BE56C9C00B145B5 /* MainWindowController.swift */,
+				8EA97B741BE3C8BE003CB921 /* Interface */,
+				8EA97B731BE3C8B5003CB921 /* Resources */,
+				8EA97B811BE3C920003CB921 /* Frameworks */,
+			);
+			path = LexerTest;
+			sourceTree = "<group>";
+		};
+		8EA97B731BE3C8B5003CB921 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EA97B681BE3C8A7003CB921 /* Assets.xcassets */,
+				8EA97B6D1BE3C8A7003CB921 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8EA97B741BE3C8BE003CB921 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				8EA97B6A1BE3C8A7003CB921 /* MainMenu.xib */,
+				8EC5356F1BE56C9C00B145B5 /* MainWindowController.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		8EA97B811BE3C920003CB921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EF480631CFAF1E700AC4738 /* LexerKit.framework */,
+				8EF480601CFAF14300AC4738 /* LineNumberTextView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA97B621BE3C8A7003CB921 /* LexerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA97B701BE3C8A7003CB921 /* Build configuration list for PBXNativeTarget "LexerTest" */;
+			buildPhases = (
+				8EA97B5F1BE3C8A7003CB921 /* Sources */,
+				8EA97B601BE3C8A7003CB921 /* Frameworks */,
+				8EA97B611BE3C8A7003CB921 /* Resources */,
+				8EA97B851BE3C93A003CB921 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LexerTest;
+			productName = LexerTest;
+			productReference = 8EA97B631BE3C8A7003CB921 /* LexerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA97B5B1BE3C8A7003CB921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Raphael Hanneken";
+				TargetAttributes = {
+					8EA97B621BE3C8A7003CB921 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 8EA97B5E1BE3C8A7003CB921 /* Build configuration list for PBXProject "LexerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EA97B5A1BE3C8A7003CB921;
+			productRefGroup = 8EA97B641BE3C8A7003CB921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA97B621BE3C8A7003CB921 /* LexerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA97B611BE3C8A7003CB921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA97B691BE3C8A7003CB921 /* Assets.xcassets in Resources */,
+				8EC535711BE56C9C00B145B5 /* MainWindowController.xib in Resources */,
+				8EA97B6C1BE3C8A7003CB921 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA97B5F1BE3C8A7003CB921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC535701BE56C9C00B145B5 /* MainWindowController.swift in Sources */,
+				8EA97B671BE3C8A7003CB921 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA97B6A1BE3C8A7003CB921 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA97B6B1BE3C8A7003CB921 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA97B6E1BE3C8A7003CB921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EA97B6F1BE3C8A7003CB921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8EA97B711BE3C8A7003CB921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LexerTest",
+				);
+				INFOPLIST_FILE = LexerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.behoernchen.LexerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EA97B721BE3C8A7003CB921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LexerTest",
+				);
+				INFOPLIST_FILE = LexerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.behoernchen.LexerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA97B5E1BE3C8A7003CB921 /* Build configuration list for PBXProject "LexerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA97B6E1BE3C8A7003CB921 /* Debug */,
+				8EA97B6F1BE3C8A7003CB921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA97B701BE3C8A7003CB921 /* Build configuration list for PBXNativeTarget "LexerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA97B711BE3C8A7003CB921 /* Debug */,
+				8EA97B721BE3C8A7003CB921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA97B5B1BE3C8A7003CB921 /* Project object */;
+}
